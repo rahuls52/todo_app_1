@@ -1,0 +1,419 @@
+2019/10/09 11:10:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yiicurd.user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `user`.
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/09 12:28:24 [error] [php] Undefined variable: student (C:\xampp\htdocs\yiiapp\protected\views\student\index.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): StudentController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): StudentController->renderPartial()
+#2 C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php(7): StudentController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): StudentController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): StudentController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): StudentController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=student
+in C:\xampp\htdocs\yiiapp\protected\views\student\index.php (11)
+in C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php (7)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/09 12:32:34 [error] [php] Undefined variable: students (C:\xampp\htdocs\yiiapp\protected\views\student\index.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): StudentController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): StudentController->renderPartial()
+#2 C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php(7): StudentController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): StudentController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): StudentController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): StudentController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=student
+in C:\xampp\htdocs\yiiapp\protected\views\student\index.php (11)
+in C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php (7)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/09 12:32:37 [error] [php] Undefined variable: students (C:\xampp\htdocs\yiiapp\protected\views\student\index.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): StudentController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): StudentController->renderPartial()
+#2 C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php(7): StudentController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): StudentController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): StudentController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): StudentController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=student
+in C:\xampp\htdocs\yiiapp\protected\views\student\index.php (11)
+in C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php (7)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/09 12:33:35 [error] [php] Undefined variable: students (C:\xampp\htdocs\yiiapp\protected\views\student\index.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): StudentController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): StudentController->renderPartial()
+#2 C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php(7): StudentController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): StudentController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): StudentController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): StudentController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=student
+in C:\xampp\htdocs\yiiapp\protected\views\student\index.php (11)
+in C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php (7)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/09 12:33:37 [error] [php] Undefined variable: students (C:\xampp\htdocs\yiiapp\protected\views\student\index.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): StudentController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): StudentController->renderPartial()
+#2 C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php(7): StudentController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): StudentController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): StudentController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): StudentController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=student
+in C:\xampp\htdocs\yiiapp\protected\views\student\index.php (11)
+in C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php (7)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/09 12:36:21 [error] [php] Undefined variable: students (C:\xampp\htdocs\yiiapp\protected\views\student\index.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): StudentController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): StudentController->renderPartial()
+#2 C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php(7): StudentController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): StudentController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): StudentController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): StudentController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=student
+in C:\xampp\htdocs\yiiapp\protected\views\student\index.php (11)
+in C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php (7)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/09 12:36:22 [error] [php] Undefined variable: students (C:\xampp\htdocs\yiiapp\protected\views\student\index.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): StudentController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): StudentController->renderPartial()
+#2 C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php(7): StudentController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): StudentController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): StudentController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): StudentController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=student
+in C:\xampp\htdocs\yiiapp\protected\views\student\index.php (11)
+in C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php (7)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/09 12:37:50 [error] [php] Undefined variable: std (C:\xampp\htdocs\yiiapp\protected\views\student\index.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): StudentController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): StudentController->renderPartial()
+#2 C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php(7): StudentController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): StudentController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): StudentController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): StudentController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=student
+in C:\xampp\htdocs\yiiapp\protected\views\student\index.php (11)
+in C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php (7)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/09 12:37:51 [error] [php] Undefined variable: std (C:\xampp\htdocs\yiiapp\protected\views\student\index.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): StudentController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): StudentController->renderPartial()
+#2 C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php(7): StudentController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): StudentController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): StudentController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): StudentController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=student
+in C:\xampp\htdocs\yiiapp\protected\views\student\index.php (11)
+in C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php (7)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/09 12:39:08 [error] [php] Undefined variable: std (C:\xampp\htdocs\yiiapp\protected\views\student\index.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): StudentController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): StudentController->renderPartial()
+#2 C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php(7): StudentController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): StudentController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): StudentController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): StudentController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=student/index
+in C:\xampp\htdocs\yiiapp\protected\views\student\index.php (11)
+in C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php (7)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/09 12:49:49 [error] [php] Undefined variable: studens (C:\xampp\htdocs\yiiapp\protected\views\student\index.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): StudentController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): StudentController->renderPartial()
+#2 C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php(7): StudentController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): StudentController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): StudentController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): StudentController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=student/index
+in C:\xampp\htdocs\yiiapp\protected\views\student\index.php (11)
+in C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php (7)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/09 12:51:30 [error] [php] include(Students.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php(7): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): StudentController->actionIndex()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): StudentController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): StudentController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=student/index
+in C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php (7)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/09 12:51:51 [error] [php] include(Students.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php(7): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): StudentController->actionIndex()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): StudentController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): StudentController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=student
+in C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php (7)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/09 12:51:54 [error] [php] include(Students.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:463)
+Stack trace:
+#0 C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php(7): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): StudentController->actionIndex()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): StudentController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): StudentController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=student
+in C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php (7)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/09 12:59:23 [error] [php] Undefined variable: studens (C:\xampp\htdocs\yiiapp\protected\views\student\index.php:11)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): StudentController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): StudentController->renderPartial()
+#2 C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php(10): StudentController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): StudentController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): StudentController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): StudentController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): StudentController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=student
+in C:\xampp\htdocs\yiiapp\protected\views\student\index.php (11)
+in C:\xampp\htdocs\yiiapp\protected\controllers\StudentController.php (10)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/16 09:47:23 [error] [exception.CException] exception 'CException' with message 'Filter "inlineFilterName" is invalid. Controller "StudentController" does not have the filter method "filterinlineFilterName".' in C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php:46
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(73): CInlineFilter::create(Object(StudentController), 'inlineFilterNam...')
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain::create(Object(StudentController), Object(CInlineAction), Array)
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('student')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiiapp/index.php?r=student
+---
+2019/10/16 10:11:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "studentfrom".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('studentfrom')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiapp/index.php?r=studentfrom
+---
+2019/10/16 10:21:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "studentfrom".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('studentfrom')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiapp/index.php?r=studentfrom
+---
+2019/10/16 14:34:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('student/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiapp/index.php?r=student/admin
+HTTP_REFERER=http://localhost/yiiapp/index.php?r=site/login
+---
+2019/10/16 14:34:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('student/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiapp/index.php?r=student/admin
+HTTP_REFERER=http://localhost/yiiapp/index.php?r=site/login
+---
+2019/10/16 14:34:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('student/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiapp/index.php?r=student/admin
+HTTP_REFERER=http://localhost/yiiapp/index.php?r=student
+---
+2019/10/22 08:13:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('student/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiapp/index.php?r=student/admin
+HTTP_REFERER=http://localhost/yiiapp/index.php?r=site/login
+---
+2019/10/22 08:31:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('student/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiapp/index.php?r=student/admin
+HTTP_REFERER=http://localhost/yiiapp/index.php?r=site/login
+---
+2019/10/22 08:32:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('student/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiapp/index.php?r=student/admin
+HTTP_REFERER=http://localhost/yiiapp/index.php?r=site/login
+---
+2019/10/22 08:50:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('student/admin')
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yiiapp\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiapp/index.php?r=student/admin
+HTTP_REFERER=http://localhost/yiiapp/index.php?r=site/login
+---
+2019/10/22 09:07:28 [error] [php] mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\xampp\htdocs\yiiapp\protected\controllers\SiteController.php:67)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=site/contact
+in C:\xampp\htdocs\yiiapp\protected\controllers\SiteController.php (67)
+in C:\xampp\htdocs\yiiapp\index.php (13)
+2019/10/22 09:30:55 [error] [php] mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\xampp\htdocs\yiiapp\protected\controllers\SiteController.php:67)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yiiapp\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiapp/index.php?r=site/contact
+in C:\xampp\htdocs\yiiapp\protected\controllers\SiteController.php (67)
+in C:\xampp\htdocs\yiiapp\index.php (13)
