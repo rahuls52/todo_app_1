@@ -1,4 +1,12 @@
+<?php
+//@var $this SiteController
 
+//$this->pageTitle=Yii::app()->name;
+
+//$name=Student::model()->findAll();
+//print_r($name);
+
+?>
 <h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
 
 <p>Congratulations! You have successfully created your Yii application.</p>
@@ -17,22 +25,21 @@
         if(isset($_GET['del_task'])){
             $id = $_GET['del_task'];
             mysqli_query($db, "DELETE FROM task WHERE id=$id");
-            header('loction: index.php');
+            header('location: index.php');
         }
         $tasks = mysqli_query($db, "SELECT * FROM task");
 ?>
 
 <html>
 <head>
-<title>
-    To do List Appliction </title>
+<title>  To do List Application </title>
     <link rel= "stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
     <div class = "heading">
-    <h2>To do List Appliction </h2>
-    
+    <h2>To do List Application </h2>
+    <img src="" alt="">
     </div>
     <form method="Post" action="index.php">
     <input type="text" name="task" class= "task_input">
